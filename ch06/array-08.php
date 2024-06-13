@@ -1,0 +1,14 @@
+<?php 
+    /**
+     * 배열 확인하기
+     */
+
+   $yes = array('this', 'is', 'an array');
+
+   echo is_array($yes) ? 'Array' : 'not an Array';
+   echo "<br>";
+
+   $no = 'this is a string';
+
+   echo is_array($no) ? 'Array' : 'not an Array';
+?>
